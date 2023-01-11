@@ -1,4 +1,4 @@
-import Produtos from "../models/produtoModel.js";
+import Produto from "../models/produtoModel.js";
 
 const ProdutoController = (app, db) => {
   app.get("/", (request, response) => {
